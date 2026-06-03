@@ -53,7 +53,16 @@ Python · PyTorch · numpy · matplotlib
 
 ## What I Learned
 
-TBD — will be updated as notebooks are completed.
+Every architecture solved the limitations of the previous one.
+
+Perceptron: linear boundary only — XOR impossible.
+Neural Network: hidden layers create non-linear boundaries — XOR solved.
+Backpropagation: chain rule makes learning possible — but gradients vanish in deep networks.
+CNN: shared filters detect patterns anywhere in the input — efficient and powerful.
+RNN: sequential memory — but gradients vanish over long sequences.
+Transformer: attention gives every token direct access to every other token — no vanishing gradient across positions.
+
+The most important insight: understanding why something fails is more valuable than knowing how to use it.
 
 ---
 
